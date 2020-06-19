@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_dialog_bg"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/relLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/ivLoading"
+            android:layout_width="@dimen/circle_progress"
+            android:layout_height="@dimen/circle_progress" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvContent"
+        style="@style/MyAppTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/please_wait"
+        android:textColor="@color/colorBackground"
+        android:textSize="@dimen/Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/relLoading"
+        app:layout_constraintStart_toStartOf="@+id/relLoading"
+        app:layout_constraintTop_toBottomOf="@+id/relLoading" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

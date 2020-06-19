@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Cafebazaar Test</string>
+    <string name="location_notify_name">Location Service</string>
+    <string name="location_notify_state">Service is Running…</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="locations">Locations</string>
+    <string name="details">Details</string>
+    <string name="position">position</string>
+
+    <string name="string_null">-</string>
+    <string name="phone_number_not_valid">Phone number not valid!</string>
+    <string name="address_not_valid">Address not valid!</string>
+    <string name="url_not_valid">Site url not valid!</string>
+    <string name="google_play_services_is_not_installed">Google Play Services is not installed</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="permission_message" formatted="false">To find your %s, We need access to %s permission.</string>
+    <string name="permission_location_message">Current Location</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_gps">GPS</string>
+    <string name="accept">Accept</string>
+    <string name="understand">Understand</string>
+    <string name="reject">Reject</string>
+    <string name="error">An error has occurred!</string>
+    <string name="show_app_setting">Want to manually enable %s permission?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="current_location_not_found">Your current location was not found</string>
+
+</resources>
